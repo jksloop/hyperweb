@@ -1,4 +1,10 @@
-div.CustomFlashcards_flashcardText__2YiRD {
+div[class^="CustomFlashcards_flashcardText"] {
   --text-sm: 56px;
   font-size: 56px !important;
 }
+
+div[class*="CustomFlashcards_whiteText"] {
+  --text-sm: 15px;
+  font-size: 25px !important;
+}
+
